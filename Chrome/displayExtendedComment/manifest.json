@@ -1,0 +1,14 @@
+{
+    "name": "Display Extended Comment",
+    "version": "1.0",
+    "description": "Display comment extended beyond input box",
+    "permissions": ["https://www.bawi.org/", "activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["https://www.bawi.org/*"],
+            "js": ["contentScript.js"]
+        }
+    ],
+    "manifest_version": 2
+  }
+  
